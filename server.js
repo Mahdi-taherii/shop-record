@@ -79,7 +79,7 @@ server.use(jsonServer.bodyParser);
 // For all non-json POST and PATCH requests (create and edit endpoints using an image file)
 // 1- Upload the file inside the `image` field
 // 2- (do it in next middleware)
-const imageFieldUploadMiddleware = upload.single("image");
+const imageFieldUploadMiddleware = upload.array("image");
 
 server.use((req, res, next) => {
   if (

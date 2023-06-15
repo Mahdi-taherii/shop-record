@@ -73,7 +73,7 @@ const AdminHeader = ({ active }) => {
               />
               <div>
                 <p className="text-md text-stone-400">پنل مدیریت</p>
-                <p>الهه مظفری</p>
+                <p>مهدی طاهری</p>
               </div>
             </Link>
             <div className="md:hidden flex justify-center items-center">

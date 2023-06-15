@@ -1,9 +1,9 @@
 import axios from "axios";
-
+import { BASE_URL } from "configs/varibels.config";
 
 class HttpService {
   constructor() {
-    axios.defaults.baseURL = process.env.BASE_URL;
+    axios.defaults.baseURL = BASE_URL;
     axios.interceptors.request.use(
       (config) => {
         return config;

@@ -12,6 +12,7 @@ const BannerCarousel = ({ src, description }) => {
   const navigate = useNavigate();
   const navigateToContacts = () => {
     navigate("/Shop");
+    
   };
   return (
     <>

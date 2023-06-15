@@ -167,7 +167,7 @@ function Footer() {
 
       <div className="py-6 px-4 bg-salmon  md:flex md:items-center md:justify-between">
         <span className="text-sm  text-white  sm:text-center">
-          © 2022 <Link to="*">Erfan Malakouti</Link>. All Rights Reserved.
+          © 2022 <Link to="*">Mahdi taheri</Link>. All Rights Reserved.
         </span>
         <div className="flex mt-4 space-x-6 justify-center md:mt-0">
           <Link
